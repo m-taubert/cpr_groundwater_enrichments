@@ -123,7 +123,7 @@ p_value_matrix <- matrix(nrow = ncol(asv_Pat_RA_spearman), ncol = ncol(asv_Pat_R
 
 ####     restore saved version of the data
 
-p_value_matrix <- readRDS(file="Fig4_p_value_matrix.rData")
+p_value_matrix <- readRDS(file="data/Fig4_p_value_matrix.rData")
 
 # rename columns and rows
 colnames(p_value_matrix) <- colnames(correlation_matrix)
