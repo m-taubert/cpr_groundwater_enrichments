@@ -24,7 +24,7 @@ F1A.raw <- meta[which(meta$filter.fraction==0.2),c("Csource","Period","CPR.rel.a
 F1A.raw
 
 # add in situ data
-in.situ <- read.csv(file="patescibacterial_RA-data0.csv", header=TRUE, sep=",")
+in.situ <- read.csv(file="import/patescibacterial_RA-data0.csv", header=TRUE, sep=",")
 
 F1A <- rbind(F1A.raw, in.situ[,c("Csource","Period","CPR.rel.abund")])
 
