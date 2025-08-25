@@ -1,1 +1,1 @@
-The output files of the analysis ("net<treatment>.RData") can be found under https://osf.io/zgh2n/
+The output files of the analysis ("net[treatment].RData") can be found under https://osf.io/zgh2n/
