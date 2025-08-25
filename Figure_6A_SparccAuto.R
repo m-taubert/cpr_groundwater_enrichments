@@ -27,11 +27,11 @@ abundance_matrixAsv2 <- as.matrix(filtered_columns)
 funyG <- apply(abundance_matrixAsv2, 2, as.numeric)
 
 ############################# backup and run sparcc analysis
-#save(funyG, file = "funyGautotrophy.RData")
+#save(funyG, file = "sparcc/funyGautotrophy.RData")
 
 # this code takes a long time to run, please use the provided .RData files instead
 #net <-sparcc(funyG)
-#save(net, file = "netautotrophy.RData")
+#save(net, file = "sparcc/netautotrophy.RData")
 
 ############################# continue with saved results
 load("sparcc/netautotrophy.RData")

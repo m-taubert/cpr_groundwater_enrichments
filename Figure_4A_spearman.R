@@ -169,7 +169,7 @@ bonferrony <- bonferrony %>% mutate(ASV=gsub("\\Candidatus.","Candidatus ", ASV)
 
 #bonferrony$ASV1 <- paste0("X",sapply(bonferrony$ASV, function(x) which(colnames(asv)==x)))
 #bonferrony$ASV1[353] <- paste0("X",which(colnames(asv)=="Bacteria_Patescibacteria_Parcubacteria_GWA2-38-13b_NA_NA_NA"))
-#write.table(bonferrony, file="Table_S2_Spearmans.csv", sep=",")
+#write.table(bonferrony, file="Table_S3_Spearmans.csv", sep=",")
 
 #####     plotting
 # Create an annotation data frame

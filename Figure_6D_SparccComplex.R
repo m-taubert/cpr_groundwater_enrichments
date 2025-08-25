@@ -27,11 +27,11 @@ abundance_matrixAsv2 <- as.matrix(filtered_columns)
 funyG <- apply(abundance_matrixAsv2, 2, as.numeric)
 
 ############################# backup and run sparcc analysis
-#save(funyG, file = "funyGComplex.RData")
+#save(funyG, file = "sparcc/funyGComplex.RData")
 
 # this code takes a long time to run, please use the provided .RData files instead
 #net <-sparcc(funyG)
-#save(net, file = "netorganic_undefined.RData")
+#save(net, file = "sparcc/netorganic_undefined.RData")
 
 ####################################################### Plot
 load("sparcc/netorganic_undefined.RData")

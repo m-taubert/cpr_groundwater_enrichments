@@ -90,7 +90,7 @@ anc.results.sub <- anc.results.sub[order(anc.results.sub$Class),]
 
 anc.results.sub.long <- anc.results.sub %>% pivot_longer(cols = -c(taxon, Class), names_to = c(".value", "supplement"), names_pattern = "(lfc|q)_(.*)")
 
-write.table(anc.results.sub.long, file="Table_S3_ANCOM-BC.csv")
+write.table(anc.results.sub.long, file="Table_S4_ANCOM-BC.csv")
 
 #define colors
 hm.col <- colorRamp2(c(-2, 0, 2), c("red", "white", "#018060")) 
